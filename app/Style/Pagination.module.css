@@ -1,0 +1,24 @@
+.Pagination {
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  margin: auto;
+  width: 50%;
+}
+
+.Pagination > button {
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 0.4rem;
+  margin: auto;
+  box-shadow: 18px 18px 46px #8992a1;
+  background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c);
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
+}
+
+@media only screen and (max-width: 480px) {
+  .Pagination {
+    width: 100%;
+  }
+}

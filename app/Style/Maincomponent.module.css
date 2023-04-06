@@ -1,0 +1,14 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 0.5rem;
+  margin: auto;
+  margin-top: 0;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
