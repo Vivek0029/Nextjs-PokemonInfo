@@ -1,4 +1,4 @@
-import styles from "../Style/Pagination.module.css"
+import styles from "../Styles/Pagination.module.css"
 
 function Pagination({ previousProp, nextProp, previousUrl, nextUrl}) {
 

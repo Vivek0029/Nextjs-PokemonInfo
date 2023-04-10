@@ -1,4 +1,4 @@
-import styles from "../Style/Pokecard.module.css";
+import styles from "../Styles/Pokecard.module.css";
 
 function Pokecard({ name, image, attacks }) {
   let previousPoke = null;

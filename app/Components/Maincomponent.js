@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import Pokecard from "./Pokecard";
 import Pagination from "./Pagination";
-import styles from "../Style/Maincomponent.module.css";
+import styles from "../Styles/Maincomponent.module.css";
 
 function Maincomponent() {
   const [pokemons, setPokemons] = useState([]);
